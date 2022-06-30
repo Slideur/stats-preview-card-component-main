@@ -40,6 +40,8 @@ article {
     
 }
 
+/* Text */
+
 .text {
     font-family: "Inter", serif;
     width: 70%;
@@ -71,6 +73,8 @@ span {
     margin-left: 0px;
     line-height: 1.6rem; 
 }
+
+/* IMAGE */
 
 .image {
     background-color:hsl(277, 64%, 61%);
@@ -119,28 +123,15 @@ span {
 
 }
 
-.companies {
+.companies, .templates, .queries {
     padding: 8px;
     margin: 32px;
     text-align: left;
     
 }
 
-.templates {
-    padding: 8px;
-    margin: 32px;
-    text-align: left;
-    
-}
 
-.queries {
-    padding: 8px;
-    margin: 32px;
-    text-align: left;
-    
-}
-
-.dix {
+.dix, .troiscent, .douze {
 
     font-family: "Inter", serif;
     font-weight: 700;
@@ -148,24 +139,9 @@ span {
     margin: 8px;
     margin-left: 0px;
     
-
 }
 
-.troiscent {
-    font-family: "Inter", serif;
-    font-weight: 700;
-    font-size: 1.5rem;
-    margin: 8px;
-    margin-left: 0px;
-}
-
-.douze {
-    font-family: "Inter", serif;
-    font-weight: 700;
-    font-size: 1.5rem;
-    margin: 8px;
-    margin-left: 0px;
-}
+/* MOBILE : 375px */
 
 @media all and (max-width: 375px) {
 
@@ -179,6 +155,14 @@ span {
         
     }
 
+    article {
+    
+        border-radius: 0 0 8px 8px;
+        width: 100%;
+    }
+
+    /* TEXT */
+
     .text h1 {
         width: 100%;
         margin:auto;
@@ -191,18 +175,14 @@ span {
         margin:auto;
     }
 
-    article {
-    
-        border-radius: 0 0 8px 8px;
-        width: 100%;
-    }
-
     .disco {
         width: 100%;
         text-align: center;
         font-size: 0.9rem;
         padding:24px;
     }
+
+    /* IMAGE */
 
     .image {
         border-radius: 8px 8px 0 0;
@@ -212,6 +192,8 @@ span {
         width: 100%;
         border-radius: 12px 12px 0 0;
     }
+
+    /* STATS */
     
     .stats {
         
@@ -219,42 +201,17 @@ span {
         font-size: 1rem;
     }
     
-    .companies {
-        margin: 16px;
-        text-align: center;
-        
-        
-    }
-
-    .templates {
+   .companies, .templates, .queries {
         margin: 16px;
         text-align: center;
         
     }
-    .queries {
-        margin: 16px;
-        text-align: center;
-        
-    }
-
-    .comp {
+    
+    .comp, .temp, .que {
         font-weight: bold;
         font-size: 0.7rem;
         letter-spacing: 0.1rem;
     }
-
-    .temp {
-        font-weight: bold;
-        font-size: 0.7rem;
-        letter-spacing: 0.1rem;
-    }
-
-    .que {
-        font-weight: bold;
-        font-size: 0.7rem;
-        letter-spacing: 0.1rem;
-
-    } 
 
     .image {
         border-radius: 15px 15px 0 0;
